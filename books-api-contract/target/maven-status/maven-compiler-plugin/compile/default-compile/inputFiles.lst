@@ -1,0 +1,12 @@
+/Users/a798311/IdeaProjects/demo-rest-v1-my/books-api-contract/src/main/java/edu/rutmiit/demo/booksapicontract/config/BloodTestApiContractConfig.java
+/Users/a798311/IdeaProjects/demo-rest-v1-my/books-api-contract/src/main/java/edu/rutmiit/demo/booksapicontract/dto/BloodTestRequest.java
+/Users/a798311/IdeaProjects/demo-rest-v1-my/books-api-contract/src/main/java/edu/rutmiit/demo/booksapicontract/dto/BloodTestResponse.java
+/Users/a798311/IdeaProjects/demo-rest-v1-my/books-api-contract/src/main/java/edu/rutmiit/demo/booksapicontract/dto/ErrorResponse.java
+/Users/a798311/IdeaProjects/demo-rest-v1-my/books-api-contract/src/main/java/edu/rutmiit/demo/booksapicontract/dto/PagedResponse.java
+/Users/a798311/IdeaProjects/demo-rest-v1-my/books-api-contract/src/main/java/edu/rutmiit/demo/booksapicontract/dto/PatchBloodTestRequest.java
+/Users/a798311/IdeaProjects/demo-rest-v1-my/books-api-contract/src/main/java/edu/rutmiit/demo/booksapicontract/dto/UpdateBloodTestRequest.java
+/Users/a798311/IdeaProjects/demo-rest-v1-my/books-api-contract/src/main/java/edu/rutmiit/demo/booksapicontract/endpoints/BloodTestApi.java
+/Users/a798311/IdeaProjects/demo-rest-v1-my/books-api-contract/src/main/java/edu/rutmiit/demo/booksapicontract/exception/NumberAlreadyExistsException.java
+/Users/a798311/IdeaProjects/demo-rest-v1-my/books-api-contract/src/main/java/edu/rutmiit/demo/booksapicontract/exception/ResourceNotFoundException.java
+/Users/a798311/IdeaProjects/demo-rest-v1-my/books-api-contract/src/main/java/edu/rutmiit/demo/booksapicontract/validation/NumberValidator.java
+/Users/a798311/IdeaProjects/demo-rest-v1-my/books-api-contract/src/main/java/edu/rutmiit/demo/booksapicontract/validation/ValidNumber.java

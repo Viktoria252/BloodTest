@@ -1,0 +1,94 @@
+scalar DateTime
+scalar Date
+
+# ---------------------------------------------------------------------------
+# Основные типы данных
+# ---------------------------------------------------------------------------
+
+
+type BloodTest {
+    id: ID!
+    fullName: String!
+    number: Int!
+    gender: String!
+    gemoglobin: Int!
+    eritrozit: Int!
+    trombozit: Int!
+    leikozit: Int!
+    palochloyader: Int!
+    segmentoyader: Int!
+    bazophil: Int!
+    limphozit: Int!
+    createdAt: DateTime!
+}
+
+# ---------------------------------------------------------------------------
+# Типы для пагинации
+# ---------------------------------------------------------------------------
+
+type BloodTestConnection {
+    content: [BloodTest!]!
+    pageInfo: PageInfo!
+    totalElements: Int!
+}
+
+# Метаданные страницы — номер, размер, общее число страниц.
+type PageInfo {
+    pageNumber: Int!
+    pageSize: Int!
+    totalPages: Int!
+    last: Boolean!
+}
+
+# ---------------------------------------------------------------------------
+# Входные типы для мутаций
+# ---------------------------------------------------------------------------
+
+input CreateBloodTestInput {
+    fullName: String!
+    number: Int!
+    gender: String!
+    gemoglobin: Int!
+    eritrozit: Int!
+    trombozit: Int!
+    leikozit: Int!
+    palochloyader: Int!
+    segmentoyader: Int!
+    bazophil: Int!
+    limphozit: Int!
+}
+
+input UpdateBloodTestInput {
+    number: Int!
+    gemoglobin: Int!
+    eritrozit: Int!
+    trombozit: Int!
+    leikozit: Int!
+    palochloyader: Int!
+    segmentoyader: Int!
+    bazophil: Int!
+    limphozit: Int!
+}
+
+input BloodTestFilter {
+    fullName: String
+    gender: String
+}
+
+# ---------------------------------------------------------------------------
+# Корневые точки входа: запросы и мутации
+# ---------------------------------------------------------------------------
+
+type Query {
+    bloodTest(id: ID!): BloodTest
+
+    bloodTests(filter: BloodTestFilter, page: Int = 0, size: Int = 20): BloodTestConnection!
+}
+
+type Mutation {
+    createBloodTest(input: CreateBloodTestInput!): BloodTest!
+
+    updateBloodTest(id: ID!, input: UpdateBloodTestInput!): BloodTest!
+
+    deleteBloodTest(id: ID!): Boolean!
+}

@@ -1,0 +1,14 @@
+edu/rutmiit/demo/booksapicontract/config/BloodTestApiContractConfig.class
+edu/rutmiit/demo/booksapicontract/dto/PatchBloodTestRequest.class
+edu/rutmiit/demo/booksapicontract/validation/NumberValidator.class
+edu/rutmiit/demo/booksapicontract/dto/BloodTestResponse$BloodTestResponseBuilder.class
+edu/rutmiit/demo/booksapicontract/exception/ResourceNotFoundException.class
+edu/rutmiit/demo/booksapicontract/exception/NumberAlreadyExistsException.class
+edu/rutmiit/demo/booksapicontract/dto/ErrorResponse.class
+edu/rutmiit/demo/booksapicontract/dto/PagedResponse.class
+edu/rutmiit/demo/booksapicontract/dto/BloodTestRequest.class
+edu/rutmiit/demo/booksapicontract/dto/BloodTestResponse.class
+edu/rutmiit/demo/booksapicontract/validation/ValidNumber.class
+edu/rutmiit/demo/booksapicontract/endpoints/BloodTestApi.class
+edu/rutmiit/demo/booksapicontract/dto/ErrorResponse$FieldError.class
+edu/rutmiit/demo/booksapicontract/dto/UpdateBloodTestRequest.class
